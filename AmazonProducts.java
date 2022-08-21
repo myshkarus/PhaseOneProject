@@ -30,7 +30,7 @@ public class AmazonProducts {
 		List<WebElement> productPrice = driver.findElements(By.xpath("//div[@data-component-type='s-search-result']//span[@class='a-price']"));				
 		
 		// Print total number of products found
-		System.out.println("Total number of product found: " + productList.size());
+		System.out.println("Total number of products found: " + productList.size());
 		
 		// Iterate over products and print with their prices
 		for(WebElement product:productList) {
