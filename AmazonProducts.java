@@ -32,7 +32,7 @@ public class AmazonProducts {
 		// Print total number of products found
 		System.out.println("Total number of products found: " + productList.size());
 		
-		// Iterate over products and print with their prices
+		// Iterate over products and print their titles with prices
 		for(WebElement product:productList) {
 			int index = productList.indexOf(product);
 			System.out.println("Product: " + product.getText() + "\nProduct Price: " + productPrice.get(index).getText());
